@@ -1,7 +1,8 @@
 // Package hello provides greeting messages.
-package hello
+package calculator
 
 // Greeting to provide good msgs
-func Greeting() string {
-	return "Hello, y'all!"
+func Add(a, b int) int {
+	return a + b
+
 }

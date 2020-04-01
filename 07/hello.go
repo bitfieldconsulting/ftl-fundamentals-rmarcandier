@@ -2,6 +2,6 @@
 package hello
 
 // Greeting to provide good msgs
-func Greeting() string {
-	return "Hello, y'all!"
+func ReturnGreeting(name string) string {
+	return name + " yourself!"
 }
