@@ -5,11 +5,10 @@ import (
 	"testing"
 )
 
-func TestHello(t *testing.T) {
-	want := "Hello Gophers!"
-	got := hello.Greeting()
+func TestReturnGreeting(t *testing.T) {
+	want := "Hi there yourself!"
+	got := hello.ReturnGreeting("Hi there")
 	if want != got {
 		t.Errorf("want %q, got %q", want, got)
 	}
-
 }
